@@ -176,6 +176,13 @@ display: flex;
     background-color:#FFFFFF
 }
 
+.what-user-say {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 12px;
+    background-color: #ffff;
+}
+
 /* shared style */
 .btn-primary{
 color:#ffffff;
