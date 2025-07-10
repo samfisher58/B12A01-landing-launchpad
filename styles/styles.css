@@ -6,15 +6,22 @@
 }
 
 
+
 .inter{
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
 }
 
+
+*{
+    margin: 0;
+}
+
 body{
     max-width: 1440px;
     margin: 0 auto;
+    background-color: rgba(245, 248, 255, 1);
 }
 
 main section{
@@ -95,6 +102,50 @@ nav h3{
 .description{
     color: rgba(0, 0, 0, 0.5);
     font-size: 20px;
+}
+.review-cards{
+    display: flex;
+   justify-content: space-around;
+   background-color: rgba(255, 255, 255, 0.5);
+   border-radius: 14px;
+   border: none;
+   padding: 24px 24px;
+   gap:20px ;
+
+}
+.user-review-heading{
+    color:#252432;
+    font-size: 42px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.user-info{
+display: flex;
+padding: 0px 24px 24px 24px;
+
+}
+.reviews{
+font-size: 24px;
+font-weight:700px ;
+padding: 24px 98px 8px 24px;
+}
+.review-text{
+font-size: 16px;
+font-weight: 400;
+padding: 0px 24px 24px 24px;
+}
+.icon{
+    margin-top: 24px;
+    margin-left: 24px;
+}
+
+.user-dp{
+    margin-right: 12px;
+}
+.user-name{
+    margin-bottom: 2px;
 }
 
 /* shared style */
