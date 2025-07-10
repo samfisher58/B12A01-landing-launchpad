@@ -4,3 +4,44 @@
   font-optical-sizing: auto;
   font-style: normal;
 }
+
+
+.inter{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+main{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+main section{
+    margin-top: 116px;
+    margin-bottom: 116px;
+}
+header{
+    background-image: url('../Assets/Hero-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+nav{
+    display: flex;
+    justify-content:space-around;
+}
+nav h3{
+    color: #4E47FF;
+    font-size: 34px;
+    font-weight: bolder;
+}
+
+/* shared style */
+.btn-primary{
+color:#ffffff;
+font-size: 16px;
+font-weight: bold;
+background-color: #4E47FF;
+padding: 12px 36px;
+border-radius: 10px;
+}
