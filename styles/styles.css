@@ -37,7 +37,7 @@ nav{
     display: flex;
     justify-content:space-between;
     align-items: center;
-    margin: 0 180px;
+    margin: 50px 180px;
 }
 nav h3{
     color: #4E47FF;
@@ -49,6 +49,7 @@ nav h3{
     color: #252432;
     font-size: 65px;
     font-weight: 400px;
+    margin-bottom: 37px;
 }
 .welcome-note{
     text-align: center;
@@ -69,12 +70,15 @@ nav h3{
     color: #252432;
     font-size: 42px;
     font-weight: bold;
-    margin: 62.5px 220px 23px 0px;
+    /* margin: 62.5px 220px 23px 0px; */
+    margin-bottom: 23px;
 }
 .see-it-in-action-description{
     color: #252432;
     font-size: 24px;
-    margin: 0px 220px 23px 0px;
+    margin-bottom: 23px;
+    /* margin: 0px 220px 23px 0px; */
+   
 }
 .productive-user{
     padding: 50px 142px;
@@ -181,6 +185,45 @@ display: flex;
     padding: 20px;
     border-radius: 12px;
     background-color: #ffff;
+}
+
+.focus-heading{
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.focus-description{
+    font-size: 16px;
+    font-weight: 400;
+    color:rgba(0, 0, 0, 0.5) ;
+    margin-bottom: 20px;
+}
+
+.focus button{
+    margin-bottom: 20px;
+}
+
+.get-in-touch-text{
+    font-size: 97px;
+    font-weight: bold;
+    margin: 200px 115px 129px 0px;
+}
+
+.footer-logo{
+    font-size: 100px;
+    font-weight: bolder;
+    margin-bottom: 8px;
+}
+.footer-description{
+    color: #8987A1;
+    font-size: 16px;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+
+.footer{
+    padding: 104px 455px 105px 454px;
 }
 
 /* shared style */
